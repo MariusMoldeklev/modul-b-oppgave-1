@@ -17,7 +17,7 @@ using one of the methods I showed in the first lecture.
 <-- Locate the index.html file in the file browser and link it to this file, 
 javascript.js
 ******************************************************************************/
-
+//script src:main.js defer 
 /****************************************************************************** 
 ASSIGNMENT 2
 
@@ -29,13 +29,29 @@ Try to use both the let and const keywords
 ******************************************************************************/
 
 //your code here
+let myName = "Marius"
+let lastName = "Moldeklev"
+let isStudent = True
+let age = 31
 
+let fullName = myName + " " + lastName
+
+const array = [fullName, age, isStudent, "D"]
 /****************************************************************************** 
 ASSIGNMENT 3
 
 Try out a few of the operators we looked at (+, -, /, *)
 as well as a few of the shorthand operators (++, --, +=, -=)
 ******************************************************************************/
+let smallNumber = 5
+let mediumNumber = 15
+let lageNumber = 50
+
+let sum = smallNumber * mediumNumber
+
+let sum1 = sum / lageNumber
+
+let sum2 = sum1 * smallNumber
 
 //your code here
 
@@ -65,6 +81,13 @@ let goToPage = "";
 
 //your code here
 
+if (userName !=="" && userAge >= 18 && !userIsBlocked) {
+    userIsLoggedIn = true;
+    goToPage =  "/home";
+    console.log("Welcome to this amizing site that does not exist yet")
+} else {
+    console.log("Error, You do not belong here. Please back away before you get shot")
+}
 /******************************************************************************
 ASSIGNMENT 5
 
