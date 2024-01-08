@@ -31,7 +31,7 @@ Try to use both the let and const keywords
 //your code here
 let myName = "Marius"
 let lastName = "Moldeklev"
-let isStudent = True;
+let isStudent = true;
 let age = 31;
 
 let fullName = myName + " " + lastName
