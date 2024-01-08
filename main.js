@@ -47,11 +47,11 @@ let smallNumber = 5;
 let mediumNumber = 15;
 let lageNumber = 50;
 
-let sum = smallNumber * mediumNumber
+let sum = smallNumber * mediumNumber;
 
-let sum1 = sum / lageNumber
+let sum1 = sum / lageNumber;
 
-let sum2 = sum1 * smallNumber
+let sum2 = sum1 * smallNumber;
 
 //your code here
 
@@ -73,7 +73,7 @@ Try changing the values of the variables to make sure your IF/ELSE conditional
 can handle all cases correctly 
 ******************************************************************************/
 
-let userName = "";
+let userName = "     ";
 let userAge = 18;
 let userIsLoggedIn = false;
 let userIsBlocked = false;
@@ -84,9 +84,9 @@ let goToPage = "";
 if (userName !=="" && userAge >= 18 && !userIsBlocked) {
     userIsLoggedIn = true;
     goToPage =  "/home";
-    console.log("Welcome to this amizing site that does not exist yet")
+    console.log("Welcome to this amizing site that does not exist yet");
 } else {
-    console.log("Error, You do not belong here. Please back away before you get shot")
+    console.log("Error, You do not belong here. Please back away before you get shot");
 }
 /******************************************************************************
 ASSIGNMENT 5
