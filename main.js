@@ -31,8 +31,8 @@ Try to use both the let and const keywords
 //your code here
 let myName = "Marius"
 let lastName = "Moldeklev"
-let isStudent = True
-let age = 31
+let isStudent = True;
+let age = 31;
 
 let fullName = myName + " " + lastName
 
@@ -43,9 +43,9 @@ ASSIGNMENT 3
 Try out a few of the operators we looked at (+, -, /, *)
 as well as a few of the shorthand operators (++, --, +=, -=)
 ******************************************************************************/
-let smallNumber = 5
-let mediumNumber = 15
-let lageNumber = 50
+let smallNumber = 5;
+let mediumNumber = 15;
+let lageNumber = 50;
 
 let sum = smallNumber * mediumNumber
 
