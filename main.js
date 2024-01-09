@@ -47,12 +47,13 @@ let smallNumber = 5;
 let mediumNumber = 15;
 let lageNumber = 50;
 
+
 let sum = smallNumber * mediumNumber;
 
 let sum1 = sum / lageNumber;
 
 let sum2 = sum1 * smallNumber;
-
+let sum3 = smallNumber++
 //your code here
 
 /****************************************************************************** 
