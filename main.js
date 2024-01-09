@@ -104,3 +104,13 @@ to see that your conditional is working.
 const userMale = false;
 
 //your code here
+
+if(userMale) {
+    console.log("Welcome Mr")
+} else {
+    console.log{"Welcome Mrs"}
+}
+
+let userTitle = userMale ? "Mr." : "Mrs.";
+
+console.log("Welcome " + userTitle);
