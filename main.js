@@ -105,11 +105,11 @@ const userMale = false;
 
 //your code here
 
-if(userMale) {
-    console.log("Welcome Mr")
-} else {
-    console.log{"Welcome Mrs"}
-}
+// if(userMale) {
+//     console.log("Welcome Mr")
+// } else {
+//     console.log{"Welcome Mrs"}
+// }
 
 let userTitle = userMale ? "Mr." : "Mrs.";
 
