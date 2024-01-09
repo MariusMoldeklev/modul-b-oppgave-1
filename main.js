@@ -116,4 +116,3 @@ let userNameA = "Marius"
 // let userTitle = userMale ? "Mr." : "Mrs.";
 let userTitle = userMale ? "Mr." + userNameA : "Mrs." + userNameA;
 console.log("Welcome " + userTitle);
-🤯
