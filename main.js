@@ -102,16 +102,16 @@ to see that your conditional is working.
 ******************************************************************************/
 
 const userMale = true;
+let userNameA = "Marius"
 
 //your code here
 
 // if(userMale) {
-//     console.log("Welcome Mr")
+//     console.log("Welcome Mr" + userNameA)
 // } else {
-//     console.log{"Welcome Mrs"}
+//     console.log{"Welcome Mrs" + userNameA}
 // }
 
 // let userTitle = userMale ? "Mr." : "Mrs.";
-let userNameA = "Marius"
 let userTitle = userMale ? "Mr." + userNameA : "Mrs." + userNameA;
 console.log("Welcome " + userTitle);
