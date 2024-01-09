@@ -101,7 +101,7 @@ Try changing userMale to both true and false and console.log your new variable,
 to see that your conditional is working.
 ******************************************************************************/
 
-const userMale = false;
+const userMale = true;
 
 //your code here
 
@@ -111,6 +111,7 @@ const userMale = false;
 //     console.log{"Welcome Mrs"}
 // }
 
-let userTitle = userMale ? "Mr." : "Mrs.";
-
+// let userTitle = userMale ? "Mr." : "Mrs.";
+let userNameA = "Marius"
+let userTitle = userMale ? "Mr." + userNameA : "Mrs." + userNameA;
 console.log("Welcome " + userTitle);
