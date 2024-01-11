@@ -18,6 +18,8 @@ using one of the methods I showed in the first lecture.
 javascript.js
 ******************************************************************************/
 //script src:main.js defer 
+
+console.log("synced up to html")
 /****************************************************************************** 
 ASSIGNMENT 2
 
@@ -29,8 +31,8 @@ Try to use both the let and const keywords
 ******************************************************************************/
 
 //your code here
-let myName = "Marius"
-let lastName = "Moldeklev"
+const myName = "Marius"
+const lastName = "Moldeklev"
 let isStudent = true;
 let age = 31;
 
